@@ -1,0 +1,116 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Container styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation bar styling */
+nav.movie {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav.movie header {
+    text-align: center;
+}
+
+nav.movie h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav.movie h4 {
+    margin: 0;
+    font-size: 1em;
+}
+
+/* Main content area styling */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#par {
+    text-align: center;
+    max-width: 800px;
+}
+
+#formatter {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#poster-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#poster {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#details {
+    flex: 1;
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#movie-details label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#buy-ticket {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+#buy-ticket:hover {
+    background-color: #218838;
+}
+
+#buy-ticket:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
